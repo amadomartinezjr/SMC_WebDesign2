@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.floater {
+    float:left;
+    min-height:200px;
+}
+
+.w-100 {
+width:100px;
+}
+
+@media (min-width:550px) {
+    .w-md-50{
+        width:50px;
+    }
+    .w-md-33{
+        width:33.3%;
+    }
+}
+/*end of mid screen media query 550px*/
+
+@media (min-width:960px) {
+    .w-lg-50{
+        width:50%;
+    }
+    .w-lg-100{
+        width:100%;
+    }
+}/*end of mid screen media query 960px*/
+

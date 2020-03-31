@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/*css document*/
+
+.red-bg{
+    background-color:#f06265;
+}
+
+.green-bg{
+    background-color:#5dea68;
+}
+
+.blue-bg{
+    background-color:#47bff0;
+}
+
+.yellow-bg{
+    background-color:#F2e77c;
+}
+
+.purple-bg{
+    background-color:#ab89ee;
+}
+
+@media (min-width:550px) {
+
+} /*end of mid screen media query 550px*/
+
+@media (min-width:960px) {
+
+} /*end of mid screen media query 960px*/
+
