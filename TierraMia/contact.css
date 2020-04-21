@@ -303,7 +303,7 @@
  .featured {
    grid-area: featuredMain;
    min-height: 500px;
-   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box, url(/Users/amado_martinezjr/Desktop/midterm-AmadoMartinez/img/echopark.jpg) no-repeat center center;
+   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box, url(img/echopark.jpg) no-repeat center center;
    background-size: cover;
  	display:grid;
  	align-content: flex-end;
@@ -333,15 +333,15 @@
    margin-top: 0;
  }
  .sub1 {
-   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box, url(/Users/amado_martinezjr/Desktop/midterm-AmadoMartinez/img/contact_sub1.jpg) no-repeat center bottom;
+   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box, url(img/contact_sub1.jpg) no-repeat center bottom;
    background-size: cover;
  }
  .sub2 {
-   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box, url(/Users/amado_martinezjr/Desktop/midterm-AmadoMartinez/img/contact_sub2.jpg) no-repeat center center;
+   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box, url(img/contact_sub2.jpg) no-repeat center center;
    background-size: cover;
  }
  .sub3 {
-   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box, url(/Users/amado_martinezjr/Desktop/midterm-AmadoMartinez/img/contact_sub3.jpg) no-repeat center center;
+   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box, url(img/contact_sub3.jpg) no-repeat center center;
    background-size: cover;
  }
  .main-content{
@@ -374,7 +374,7 @@
 
  .footer {
    display: grid;
-   background: linear-gradient(#333, rgba(0, 0, 0, 0.6)), url(/Users/amado_martinezjr/Desktop/midterm-AmadoMartinez/img/contact_footer.jpg) no-repeat center bottom;
+   background: linear-gradient(#333, rgba(0, 0, 0, 0.6)), url(img/contact_footer.jpg) no-repeat center bottom;
    background-size: cover;
    margin: auto;
    margin-top: 10px;
