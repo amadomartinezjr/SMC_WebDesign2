@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wk14 JQuery UI accordeons and autocompletes</title>
+
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.3/themes/hot-sneaks/jquery-ui.css" />
+	<script src="http://code.jquery.com/jquery-2.1.3.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.3/themes/hot-sneaks/jquery-ui.css" />
+	<script src="http://code.jquery.com/jquery-2.1.3.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <script>
+        $(document).ready(function() {
+
+
+            $('button').click(function(e) {
+                e.preventDefault();
+                switch (this.id) {
+                    case "closeAuto":
+                        $('#autoSuggest').autocomplete("close");
+                        break;
+                    case "input":
+                        $('#autoSuggest').autocomplete("search");
+                        break;
+                    default:
+                        $('#autoSuggest').autocomplete("search", this.id);
+                        break;
+                }
+            })
+
+        });
+    </script>
+       <script>
+        $(document).ready(function() {
+         $("#Accordion").accordion();
+        });
+    </script>
+</head>
+<body>
+
+
+</head>
+<body>
+<div id="Accordion">
+	  <h2><a href="#">Conures</a></h2>
+    <div>Conures, which vary in size from small to medium, often charm people with their playfulness and inquisitive personalities. They generally like to be where the household activity is, which can include mealtime and hanging out with their favored people.
+        <form>
+
+            <button id="input">Input Content</button>
+            <button id="closeAuto">Close Auto Suggestion</button>
+            <div class="ui-widget">
+                <label for="autoSuggest">Name of conure types </label><input id="autoSuggest"/>
+            </div>
+
+        </form>
+    </div>
+
+	  <h2><a href="#">Turtles</a></h2>
+	  <div>Turtles are reptiles with hard shells that protect them from predators. They are among the oldest and most primitive groups of reptiles, having evolved millions of years ago. Turtles live all over the world in almost every type of climate.
+        <form>
+
+            <button id="input">Input Content</button>
+            <button id="closeAuto">Close Auto Suggestion</button>
+            <div class="ui-widget">
+                <label for="autoSuggest">Name of turtles types </label><input id="autoSuggest"/>
+            </div>
+
+        </form>
+      </div>
+
+	  <h2><a href="#">Bats</a></h2>
+	  <div>Bat flying in the air
+Bats play key roles in ecosystems around the globe, from rain forests to deserts. They eat insects, including some that can cause lots of damage to farms and crops. They pollinate plants and they scatter seed. 
+        <form>
+
+            <button id="input">Input Content</button>
+            <button id="closeAuto">Close Auto Suggestion</button>
+            <div class="ui-widget">
+                <label for="autoSuggest">Name of vats types </label><input id="autoSuggest"/>
+            </div>
+
+        </form>
+      </div>
+  </div>
+
+
+</body>
+</html>
