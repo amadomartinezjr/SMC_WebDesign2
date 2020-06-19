@@ -1,0 +1,45 @@
+@import url("colors.css");
+@import url("navbar.css");
+
+body {
+    margin: 0px;
+    background-color: #000000;
+    background-image: block;
+}
+
+p{
+  color: white;
+  font-size: 20px;
+}
+
+h1{
+  color: white;
+}
+
+h2{
+  color: yellow;
+  align: center;
+}
+
+h3{
+  color: voilet;
+  text-align: center;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info{
+  max-width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: : center;
+  align-items: center;
+}
+
+.listfriends {
+  color: white;
+}
