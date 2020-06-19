@@ -1,0 +1,196 @@
+@charset "UTF-8";
+@import url("nav.css");
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+
+/* CSS Document */
+
+body{
+  background-color: black;
+	background-position:center;
+	background-size:cover;
+	position:relative;
+}
+
+img{
+	max-width:100%;
+}
+
+p{
+	color: black;
+ 	padding:30px;
+	background-color: #FFB6FD;
+	font-family: 'Work Sans', sans-serif;
+
+}
+
+h1{
+	color: yellow;
+	text-align:center;
+}
+
+h2{
+	color: white;
+	font-size: 20px;
+	text-align:center;
+}
+
+.grid-item{
+	color: white;
+	margin-top:20px;
+
+}
+
+.grid-container-artists{
+	color: white;
+	grid-gasp:0px;
+}
+
+	.grid-container-genres{
+		border-color: #ff00ff;
+		display:grid;
+		width:100%;
+		margin-top:70px;
+		grid-template-columns: repeat(1, 100%);
+		grid-gap:3%;
+	}
+
+
+	.g {
+		color: white;
+		border-radius: 5px;
+		padding:20px;
+		border:1px solid black;
+		height:30px;
+	}
+
+	.grid-item-g{
+		color: white;
+		text-align: center;
+		line-height:30px;
+	}
+
+
+
+
+@media (min-width:650px){
+/*home page*/
+	.grid-container{
+	display:grid;
+	grid-template-columns: 33% 33% 33%;
+	height:100vh;
+	margin-top:100px;
+	}
+
+	.gd-1 {
+		grid-column:1/3;
+		grid-row:1/2;
+	}
+
+	.gd-2 {
+		grid-column:3/4;
+		grid-row:1/2;
+
+	}
+
+
+
+
+
+/*artists page*/
+	.grid-container-artists{
+		display:grid;
+		grid-template-columns: 32% 32% 32%;
+		height:450px;
+		margin-top:70px;
+		grid-gasp:1%;
+	}
+
+	.a-1{
+	 	grid-column:1/3;
+		grid-row:1
+	}
+	.a-2{
+		grid-column:3/4;
+		grid-row:1/3;
+	}
+	.a-3{
+		grid-column:1/2;
+		grid-row:2;
+	}
+	.a-4{
+		grid-column:2/3;
+		grid-row:2;
+	}
+	.a-5{
+		grid-column:1/3;
+		grid-row:3;
+	}
+	.a-6{
+		grid-column:3/4;
+		grid-row:3/5;
+	}
+	.a-7{
+		grid-column:1/2;
+		grid-row:4;
+	}
+	.a-8{
+		grid-column:2/3;
+		grid-row:4;
+	}
+
+	.a-9{
+		grid-column:1/3;
+		grid-row:5;
+	}
+	.a-10{
+		grid-column:3/4;
+		grid-row:5/7;
+	}
+	.a-11{
+		grid-column:1/2;
+		grid-row:6;
+	}
+	.a-12{
+		grid-column:2/3;
+		grid-row:6;
+	}
+
+
+
+	h1{
+		margin-left:100px;
+		font-size:50px;
+
+	}
+
+	h2{
+		font-size: 17px;
+		padding: 20px;
+	}
+
+/*genres page*/
+	.grid-container-genres{
+		display:grid;
+		width:100%;
+		grid-gap:5%;
+		grid-template-columns: repeat(4, 21%);
+    	margin-bottom: 2em;
+		margin-top:70px;
+
+	}
+
+	.g {
+		border-radius: 5px;
+		padding:20px;
+		border:1px solid black;
+		height:100px;
+	}
+
+	.grid-item-g{
+		text-align: center;
+		line-height:90px;
+	}
+
+
+}
