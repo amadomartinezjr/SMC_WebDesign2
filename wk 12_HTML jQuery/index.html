@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>wk-11</title>
+</head>
+<body>
+    <div class="header">
+        <button>click me to center header</button>
+            <div style="height:auto;width:auto;position:absolute;"><h1>CONURES, MACAWS, DOGS AND TURTLES</h1></div>
+            <br>
+
+
+      </div>
+
+      <h2>click button to see the unexpected</h2>
+        <button id="hide">Hide n seek</button>
+        <button id="show">surprise</button>
+
+
+      <!-- Photo Grid -->
+      <div class="row">
+        <div class="column">
+          <p><img src="parrot1.jpg" style="width:100%"></p>
+          <img src="parrot2.jpg" style="width:100%">
+          <p><img src="parrot3.jpg" style="width:100%"></p>
+          <img src="parrot4.jpg" style="width:100%">
+          <p><img src="parrot5.jpg" style="width:100%"></p>
+          <img src="parrot6.jpg" style="width:100%">
+          <img src="parrot7.jpg" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="parrot8.jpg" style="width:100%">
+          <img src="parrot9.jpg" style="width:100%">
+          <p><img src="turtle10.jpg" style="width:100%"></p>
+          <img src="turtle11.jpg" style="width:100%">
+          <img src="turtle12.jpg" style="width:100%">
+          <p><img src="turtle13.jpg" style="width:100%"></p>
+        </div>
+        <div class="column">
+          <p><img src="turtle14.jpg" style="width:100%"></p>
+          <img src="turtle15.jpg" style="width:100%">
+          <p><img src="dog16.jpg" style="width:100%"></p>
+          <img src="dog17.jpg" style="width:100%">
+          <img src="dog18.jpg" style="width:100%">
+          <p><img src="dog19.jpg" style="width:100%"></p>
+          <img src="dog20.jpg" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="dog21.jpg" style="width:100%">
+          <img src="dog22.jpg" style="width:100%">
+          <p><img src="dog23.jpg" style="width:100%"></p>
+          <img src="dog24.jpg" style="width:100%">
+          <img src="dog25.jpg" style="width:100%">
+          <p><img src="dog26.jpg" style="width:100%"></p>
+        </div>
+      </div>
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script>
+        $(document).ready(function(){
+          $("button").click(function(){
+            $("div").animate({left: '250px'});
+          });
+        });
+        </script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+  $("#show").click(function(){
+    $("p").show();
+  });
+});
+</script>
+
+</script>
+
+</body>
+</html>
