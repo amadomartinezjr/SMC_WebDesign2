@@ -1,0 +1,90 @@
+@import url('https://fonts.goofleapis.com/css?family=Pacifico');
+@charset "UTF-8";
+
+.xop-section {
+  max-width:960px;
+  margin: 0 auto;
+  padding: 6% 2%;
+}
+
+.xop-grid {
+  margin: 20px 0 0 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  width:  100%;
+}
+
+.xop-grid:after {
+  clear: both;
+}
+
+.xop-grid:after, .xop-box:before {
+  content:"";
+  display: table;
+}
+
+.xop-grid li{
+  width: 328px;
+  height: 328px;
+  display: inline-block;
+  margin: 20px;
+}
+
+.xop-box {
+  width: 100%;
+  height:  100%;
+  position: relative;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out,-moz-transition 0.3s ease-in-out;
+  transition: 0.3s ease-in-out, transform
+}
+
+.xop-box:hover{
+  transform: scale(1.05);
+}
+
+.xop-img-1 {
+  background: linear-gradient(rgba(0,0,0.50),rgba(0,0,0.10)),
+  url(/Users/amado_martinezjr/Desktop/floater grid/img1.jpg);
+}
+.xop-img-2 {
+  background: linear-gradient(rgba(0,0,0.50),rgba(0,0,0.10)),
+  url(/Users/amado_martinezjr/Desktop/floater grid/img2.jpg);
+}
+.xop-img-3 {
+  background: linear-gradient(rgba(0,0,0.50),rgba(0,0,0.10)),
+  url(/Users/amado_martinezjr/Desktop/floater grid/img3.jpg);
+}
+.xop-img-4 {
+  background: linear-gradient(rgba(0,0,0.50),rgba(0,0,0.10)),
+  url(/Users/amado_martinezjr/Desktop/floater grid/img4.jpg);
+}
+.xop-img-5 {
+  background: linear-gradient(rgba(0,0,0.50),rgba(0,0,0.10)),
+  url(/Users/amado_martinezjr/Desktop/floater grid/img5.jpg);
+}
+.xop-img-6 {
+  background: linear-gradient(rgba(0,0,0.50),rgba(0,0,0.10)),
+  url(/Users/amado_martinezjr/Desktop/floater grid/img6.jpg);
+}
+.xop-img-7 {
+  background: linear-gradient(rgba(0,0,0.50),rgba(0,0,0.10)),
+  url(/Users/amado_martinezjr/Desktop/floater grid/img7.jpg);
+}
+.xop-img-8 {
+  background: linear-gradient(rgba(0,0,0.50),rgba(0,0,0.10)),
+  url(/Users/amado_martinezjr/Desktop/floater grid/img8.jpg);
+}
+.xop-img-9 {
+  background: linear-gradient(rgba(0,0,0.50),rgba(0,0,0.10)),
+  url(/Users/amado_martinezjr/Desktop/floater grid/img9.jpg);
+}
+
+.xop-info{
+  position: absolute;
+  width: inherit;
+  height: inherit;
+}
